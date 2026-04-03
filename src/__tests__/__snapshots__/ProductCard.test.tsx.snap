@@ -1,0 +1,52 @@
+// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
+
+exports[`ProductCard renders correctly and matches snapshot 1`] = `
+<div>
+  <div
+    class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow duration-300"
+  >
+    <div
+      class="relative h-48 w-full bg-gray-100"
+    >
+      <img
+        alt="Test Product"
+        class="object-cover"
+        data-nimg="fill"
+        decoding="async"
+        loading="lazy"
+        src="https://picsum.photos/seed/test/300/200"
+        style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent;"
+      />
+    </div>
+    <div
+      class="p-4"
+    >
+      <div
+        class="flex items-start justify-between mb-2"
+      >
+        <h3
+          class="text-lg font-semibold text-gray-800 flex-1 mr-2 line-clamp-1"
+        >
+          Test Product
+        </h3>
+        <span
+          class="text-lg font-bold text-blue-600 whitespace-nowrap"
+        >
+          $
+          99.99
+        </span>
+      </div>
+      <span
+        class="inline-block bg-blue-100 text-blue-800 text-xs font-medium px-2 py-1 rounded-full mb-2"
+      >
+        Electronics
+      </span>
+      <p
+        class="text-gray-600 text-sm line-clamp-2"
+      >
+        A test product description
+      </p>
+    </div>
+  </div>
+</div>
+`;
