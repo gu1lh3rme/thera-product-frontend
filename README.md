@@ -1,6 +1,6 @@
 # Product Management Web Application
 
-A full-featured product management web application built with Next.js 14, Redux Toolkit, and Mock Service Worker (MSW).
+A full-featured product management web application built with Next.js 15, Redux Toolkit, and Mock Service Worker (MSW).
 
 ## Project Overview
 
@@ -10,7 +10,7 @@ This app lets you browse, filter, sort, paginate, and add products in a catalog.
 
 | Technology | Purpose | Why |
 |---|---|---|
-| **Next.js 14 (App Router)** | React framework | Server components, file-based routing, fast builds |
+| **Next.js 15 (App Router)** | React framework | Server components, file-based routing, fast builds |
 | **TypeScript** | Type safety | Catch bugs at compile time, better DX |
 | **Tailwind CSS** | Styling | Utility-first CSS for rapid UI development |
 | **Redux Toolkit** | State management | Opinionated, boilerplate-free Redux with `createSlice` and `createAsyncThunk` |
